@@ -794,7 +794,74 @@ footer{
 .rsvp-section .form .input-control:focus{
     outline: none;
 }
+/* Wrapper */
+@media (max-width:900px) {
+	.top-right-decoration  {
+		max-width: 30%;
+	}
+    .top-left-decoration  {
+		max-width: 30%;
+	}
+}
+.top-right-decoration {
+	position: absolute;
+	top: 0;
+	right: 0;
+	display: block;
+}
 
+.top-left-decoration {
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
+}
+
+.judul h1 {
+	font-family: 'Dancing Script', cursive;
+	font-weight: bold;
+	font-style: normal;
+	font-size: 60px;
+	margin: 32px 0;
+	color: #674ea7;
+}
+
+.judul h2 {
+	font-family: 'Dancing Script', cursive;
+	font-weight: bold;
+	font-style: normal;
+	margin: 0;
+	padding: 0;
+	font-size: 24px;
+	color: #e25c67;
+	line-height: 1;
+}
+
+.judul h3 {
+	font-weight: 300;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	font-size: 24px;
+	color: #674ea7;
+	margin-top: 5px;
+}
+
+.judul p {
+	color: #564861;
+	margin: 30px 0 20px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-size: 16px;
+}
+/* .buttom-left-decoration{
+    position: absolute;
+	top: absolute;
+	left: 0;
+	display: block;
+}
+.buttom-right-decoration{
+    
+} */
 /* footer */
 .footer{
     padding: 120px 0 120px;
