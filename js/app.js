@@ -11,3 +11,4 @@ document.addEventListener('DOMContentLoaded', () => {
     let modal = new bootstrap.Modal('#exampleModal');
     modal.show();
 });
+
