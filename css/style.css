@@ -801,6 +801,7 @@ footer{
 	}
     .top-left-decoration  {
 		max-width: 50%;
+        opacity: 0.5;
 	}
     .latar{
         max-width: 100%;
@@ -819,6 +820,7 @@ footer{
 	top: 0;
 	left: 0;
 	display: block;
+    opacity: 0.5;
 }
 
 
@@ -851,6 +853,7 @@ footer{
     background-position: center;
     background-repeat: no-repeat;
     background-image: url('../img/wraper/latar.avif');
+  
 }
 /* .judul h2 {
 	font-family: 'Dancing Script', cursive;
