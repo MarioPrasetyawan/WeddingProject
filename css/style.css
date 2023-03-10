@@ -808,6 +808,13 @@ footer{
         height: auto;
     }
 }
+.bottom-right-decoration{
+    position: absolute;
+    bottom: 0;
+	right: 0;
+    opacity: 0.5;
+    display: block;
+}
 .top-right-decoration {
 	position: absolute;
 	top: 0;
