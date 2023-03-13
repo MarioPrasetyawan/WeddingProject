@@ -278,6 +278,7 @@ footer{
     max-width: 100%;
     padding: 0 15px;
     text-align: center;
+   
   
 }
 .home-section .home-content p{
@@ -324,6 +325,7 @@ footer{
     color: #ffffff;
     padding: 7px 30px;
     margin: 15px 0 0;
+    text-decoration: none;
 }
 .home-section .slide.active .home-content span{
     opacity: 0;
@@ -810,6 +812,7 @@ footer{
 }
 .bottom-right-decoration{
     position: absolute;
+    width: 370px;
     bottom: 0;
 	right: 0;
     opacity: 0.5;
@@ -967,16 +970,16 @@ p.copyright-text{
 }
 
 /* audio */
-.fa-music{
+#tombol-musik{
     position: fixed;
     right: 15px;
     bottom: 15px;
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     border:1px solid transparent;
     z-index: 1;
     cursor: pointer;
-    line-height: 38px;
+    line-height: 0px;
     text-align: center;
     border-radius: 50%;
     box-shadow: 0 0 2px #444444;

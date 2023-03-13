@@ -22,15 +22,15 @@ $(window).on("load", function(){
     slideShow();
 
     // audio
-    $(".fa-music").click(function(){
-        if($(this).hasClass("pause")){
-            $("#myAudio")[0].play();
-        }
-        else{
-            $("#myAudio")[0].pause();
-        }
-        $(this).toggleClass("pause");
-    })
+    // $(".fa-music").click(function(){
+    //     if($(this).hasClass("pause")){
+    //         $("#myAudio")[0].play();
+    //     }
+    //     else{
+    //         $("#myAudio")[0].pause();
+    //     }
+    //     $(this).toggleClass("pause");
+    // })
 })
 
 $(document).ready(function(){
