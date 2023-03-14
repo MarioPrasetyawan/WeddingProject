@@ -25,17 +25,6 @@ const buka = async () => {
     document.getElementById('tombol-musik').style.display = 'block';
     audio.play();
 };
-// const myVideo = document.getElementById("myAudio");
-
-//   function playPause(x) {
-//     if (myVideo.paused) {
-//       myVideo.play();
-//       document.getElementById("volume").className = "bi bi-volume-down-fill";
-//     } else {
-//       myVideo.pause();
-//       document.getElementById("volume").className = "bi bi-volume-mute-fill";
-//     }
-//   }
 
 document.addEventListener('DOMContentLoaded', () => {
     let modal = new bootstrap.Modal('#exampleModal');

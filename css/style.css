@@ -335,6 +335,7 @@ footer{
 /* mempelai section */
 .mempelai-section{
     padding: 80px 0 0;
+    background-color: #dde5f2;
 }
 .mempelai-section .mempelai{
     flex: 0 0 50%;
@@ -366,7 +367,8 @@ footer{
     max-width: 280px;
     width: 100%;
     border-radius: 50%;
-    border: 10px solid transparent;
+  
+
 }
 .mempelai-section .mempelai h3{
     font-size: 40px;
@@ -405,6 +407,7 @@ footer{
 /* story section */
 .story-section{
     padding: 80px 0 80px;
+    background-color: #dde5f2;
 }
 .story-section .story-content{
     flex: 0 0 100%;
